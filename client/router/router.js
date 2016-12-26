@@ -1,0 +1,8 @@
+var exposed = FlowRouter.group({});
+
+exposed.route('/', {
+	name: 'home',
+	action: function() {
+		BlazeLayout.render("mainLayout", {content: "home"});
+	}
+});

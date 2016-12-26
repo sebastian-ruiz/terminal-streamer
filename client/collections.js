@@ -1,0 +1,1 @@
+terminal        = new Meteor.Collection("terminal");

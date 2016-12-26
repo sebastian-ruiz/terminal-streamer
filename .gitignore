@@ -1,0 +1,10 @@
+node_modules/
+.deploy/
+settings.json
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+npm-debug.log

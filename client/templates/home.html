@@ -1,0 +1,11 @@
+<template name="home">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 terminal">
+				{{#each terminalLine in terminalLines}}
+			    	<div class="terminal-line">{{{ terminalLine.content }}}</div>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+</template>
